@@ -116,4 +116,4 @@ write.csv(data.frame(Taxa = rownames(geno_imp),
                      Add_GEBV = gebv_add,
                      Dom_Dev = dom_dev,
                      Total_GValue = g_total),
-          "genetic_values.csv", row.names = FALSE)
+          "genomic_predictions.csv", row.names = FALSE)
